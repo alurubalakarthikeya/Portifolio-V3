@@ -22,13 +22,10 @@ html {
   scroll-behavior: smooth;
 }
 
-
-/* 1200px / 16px = 75em */
 @media (max-width: 75em) {
   html {
     font-size: 60%;
   }
-  
 }
 
 @media (max-width: 61.25em) {
@@ -40,25 +37,6 @@ html {
 @media (max-width: 32.75em) {
   html {
     font-size: 50%;
-  }
-  wd {
-    padding: 0px 2px;
-    background-color: rgb(15, 111, 255);
-    border: 2px solid white;
-    transition: 0.5s;
-  }
-  
-  .wd:hover {
-  background: none;
-  color: var(--main-white);
-  }
-  
-  .bg {
-    transition: 0.4s;
-    text-align: center;
-  }
-  .bg:hover {
-    font-size: 8vh;
   }
 }
 
@@ -80,7 +58,7 @@ h2 {
 }
 
 h1 {
-  font-size: 4vh;
+  font-size: 5vh;
 }
 
 h2 {
@@ -102,7 +80,6 @@ img {
 }
 
 /* nav */
-
 .nav {
   display: flex;
   justify-content: flex-end;
@@ -118,7 +95,7 @@ img {
 
 .nav-list {
   display: flex;
-  margin-right: 1.6rem;
+  margin: 0 1.6rem;
 }
 
 @media (max-width: 28.75em) {
@@ -145,7 +122,6 @@ img {
 }
 
 /* Welcome section */
-
 @keyframes fadeInUp {
   0% {
     transform: translateY(100%);
@@ -185,14 +161,6 @@ img {
   filter: brightness(90%);
 }
 
-h1 {
-  font-size: 5vh;
-}
-
-h2 {
-  font-size: 4vh;
-}
-
 p {
   font-size: 2vh;
 }
@@ -206,7 +174,6 @@ p {
 ul {
   font-size: 2vh;
 }
-
 
 .welcome-section background-img {
     position: fixed; 
@@ -223,29 +190,6 @@ ul {
   color: var(--main-white);
 }
 /*  section */
-.colour {
-  color: var(--main-white);
-  transition: 0.6s ease-out;
-}
-
-.parent {
-  border: 1px solid black;
-  margin: 1rem;
-  padding: 2rem 2rem;
-  text-align: center;
-}
-.child {
-  display: inline-block;
-  border: 1px solid red;
-  padding: 1rem 1rem;
-  vertical-align: middle;
-  text-align: justify;
-}
-
-.colour:hover {
-  color: var(--main-red);
-}
-
 .projects-section {
   text-align: center;
   padding: 10rem 2rem;
@@ -315,12 +259,6 @@ button > img {
   height: 100px;
   width: 100%;
 
-}
-
-#centeredtxt {
-  text-align: center;
-  align-items: center;
-  margin: 10px 80px;
 }
 
 @media (max-width: 30.625em) {
@@ -539,36 +477,11 @@ button > img {
 }
 
 /* about section */
-#bout {
-  margin-top: 70px;
-}
 #about {
   background-color: var(--main-black);
   color: var(--main-white);
   text-align: center;
   margin-top: 30px;
-}
-
-.color {
-  color: var(--main-red);
-}
-
-.colour {
-  color: var(--main-gray);
-}
-
-.bth {
-  display: flex;
-  justify-content: flex-start;
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  border: 2px solid var(--main-white);
-  border-radius: 5px;
-  padding: 10px;
-  background: var(--main-red);
-  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
-  z-index: 10;
 }
 
 /* Contact section */
@@ -629,7 +542,6 @@ button > img {
 }
 
 /* Footer */
-
 footer {
   font-weight: 300;
   display: flex;
