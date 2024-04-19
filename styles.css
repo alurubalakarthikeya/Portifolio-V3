@@ -127,7 +127,7 @@ img {
   }
 
   .nav-list {
-    margin: 0 1.8rem;
+    margin: 1rem 1.8rem;
   }
 }
 
@@ -267,7 +267,6 @@ crr:hover {
 .projects-section-header {
   max-width: 640px;
   margin: 0 auto 4rem auto;
-  border-bottom: var(--main-white) solid 2px;
   color: var(--main-blue);
   transition: 1s ease-in;
 }
@@ -370,15 +369,15 @@ button > img {
 }
 
 .grid-a {
-  border: var(--main-blue) solid 2px;
+  border: var(--main-blue) solid 3px;
 }
 
 .grid-b {
-  border: var(--main-blue) solid 2px;
+  border: var(--main-blue) solid 3px;
 }
 
 .grid-c {
-  border: var(--main-blue) solid 2px;
+  border: var(--main-blue) solid 3px;
 }
 
 .btn {
@@ -499,6 +498,10 @@ button > img {
   color: var(--main-white);
   position: relative;
   border-radius: 6px;
+  text-align: left;
+}
+
+.content > .hehe {
   text-align: justify;
 }
 
@@ -544,15 +547,6 @@ button > img {
   color: var(--main-white);
   text-align: center;
   margin-top: 30px;
-}
-
-#about h2 {
-  border-bottom: 2px solid var(--main-blue);
-}
-
-#scrimba {
-  background-color: black;
-  height: 400px;
 }
 
 .color {
