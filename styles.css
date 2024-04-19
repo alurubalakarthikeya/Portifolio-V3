@@ -127,7 +127,7 @@ img {
   }
 
   .nav-list {
-    margin: 1rem 1.8rem;
+    margin: 0 2.5rem;
   }
 }
 
@@ -502,7 +502,7 @@ button > img {
 }
 
 .content > .hehe {
-  text-align: justify;
+  text-align: left;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
