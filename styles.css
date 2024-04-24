@@ -207,8 +207,21 @@ ul {
   color: var(--main-white);
 }
 
-crr:hover {
-  color: var(--main-black);
+.page-buttons {
+  color: var(--main-blue);
+  background-color: var(--main-white);
+  border: var(--main-white) solid 3px;
+  border-radius: 10px;
+  font-size: 2vh;
+  padding: 7px;
+  margin-bottom: 10px;
+  transition: 1s ease-in-out;
+}
+
+.page-buttons:hover {
+  color: var(--main-white);
+  background-color: var(--main-blue);
+  border: var(--main-blue) solid 3px;
 }
 
 .projects-section-header {
@@ -256,6 +269,7 @@ crr:hover {
 
 .skill:hover {
   background-color: var(--main-gray);
+  border-radius: 25px;
 }
 
 button > img {
@@ -546,12 +560,12 @@ button > img {
 
 .contact-details {
   font-size: 2.4rem;
-  transition: transform 0.4s ease-out;
+  transition: transform 0.5s ease-out;
 }
 
 .contact-details:hover {
-  transform: translateX(17px);
-  color: var(--main-red);
+  transform: translateY(-20px);
+  color: var(--main-blue);
 }
 /* Footer */
 footer {
