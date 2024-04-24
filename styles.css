@@ -97,6 +97,7 @@ img {
 .nav-list {
   display: flex;
   margin: 0 1.6rem;
+  opacity: 1;
 }
 
 @media (max-width: 28.75em) {
@@ -539,7 +540,7 @@ button > img {
   justify-content: center;
   width: 100%;
   max-width: 980px;
-  margin-top: 4rem;
+  margin-top: 17.5vh;
   flex-wrap: wrap;
 }
 
