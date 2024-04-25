@@ -20,6 +20,11 @@ html {
   box-sizing: border-box;
   font-size: 62.5%;
   scroll-behavior: smooth;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 @media (max-width: 75em) {
