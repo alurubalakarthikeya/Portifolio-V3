@@ -169,7 +169,7 @@ p {
 }
 
 .para {
-  text-align: justify;
+  text-align: left;
   align-items: center;
   margin: 10px 40px;
 }
